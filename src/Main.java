@@ -3,10 +3,10 @@ public class Main {
 
         Fila minhaFila = new Fila();
 
-        minhaFila.enqueue(new No("Primeiro"));
-        minhaFila.enqueue(new No("Segundo"));
-        minhaFila.enqueue(new No("Terceiro"));
-        minhaFila.enqueue(new No("Quarto"));
+        minhaFila.enqueue("Primeiro");
+        minhaFila.enqueue("Segundo");
+        minhaFila.enqueue("Terceiro");
+        minhaFila.enqueue("Quarto");
 
         System.out.println(minhaFila);
 
@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println(minhaFila);
 
-        minhaFila.enqueue(new No("Ultimo"));
+        minhaFila.enqueue("Ultimo");
 
         System.out.println(minhaFila);
 
